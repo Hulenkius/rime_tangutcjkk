@@ -61,7 +61,3 @@ key_binder:
 
 recognizer:
   import_preset: default
-
-style: 
-  font_face: "Tangut N4694"
-  font_point: 35
