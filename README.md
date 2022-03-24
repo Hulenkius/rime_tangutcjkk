@@ -9,3 +9,7 @@
 該方案與原版倉頡有不同，詳見下圖：
 
 ![image](https://user-images.githubusercontent.com/32562298/159518779-70efdbf9-414e-47c8-8518-983971bcccca.png)
+
+輸入演示：
+
+![gif](https://user-images.githubusercontent.com/32562298/159846588-dff4a21f-b3cf-4a57-8e80-0aa91f692ceb.gif)
