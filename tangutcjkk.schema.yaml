@@ -65,3 +65,4 @@ recognizer:
 style: 
   font_face: "Tangut Yinchuan"
   font_point: 35
+  hanb_font: Tangut.ttf
