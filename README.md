@@ -10,6 +10,23 @@
 
 ![image](https://user-images.githubusercontent.com/32562298/159518779-70efdbf9-414e-47c8-8518-983971bcccca.png)
 
+# Install this scheme on TRIME (同文輸入法, RIME on Android)
+
+**!! Make sure you have the latest files !!**
+
+- Ensure the existence and full-functuation of TRIME in your Android system
+- Put `tangutcjkk.schema.yaml` and `tangutcjkk.dict.yaml` into your TRIME folder (`/rime` as default)
+- Create a folder `fonts` there
+- Put your favourite Tangut font (in .ttf format) into `fonts` and rename it to `Tangut.ttf`
+- Launch TRIME, enable the schema, and enjoy
+
+
 輸入演示：
 
+Windows:
+
 ![gif](https://user-images.githubusercontent.com/32562298/159846588-dff4a21f-b3cf-4a57-8e80-0aa91f692ceb.gif)
+
+Android:
+
+![000000](https://user-images.githubusercontent.com/32562298/162569642-1d994ca4-c8c0-4f8a-89d2-603f9904ca89.gif)
