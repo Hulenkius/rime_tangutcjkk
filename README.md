@@ -14,7 +14,7 @@ This method is slightly different from the original Cangjie. Details below:
 
 **!! Make sure you have the latest files !!**
 
-## Windows (小狼毫)
+## Windows (Weasel 小狼毫)
 
 - Install [RIME on Windows](https://github.com/rime/weasel/releases/download/0.14.3/weasel-0.14.3.0-installer.exe).
 - Put `tangutcjkk.schema.yaml` and `tangutcjkk.dict.yaml` into `YOUR_RIME_INSTALLATION_FOLDER/data`
@@ -22,13 +22,13 @@ This method is slightly different from the original Cangjie. Details below:
 - Tick "Tangut Cangjie", then click "中" (OK) twice.
 - Press <kbd>Ctrl</kbd>+<kbd>`</kbd> or press <kbd>F4</kbd> and switch to "Tangut Cangjie"
 
-## Android (同文輸入法)
+## Android (TRIME 同文輸入法)
 
 - Install [RIME on Android](https://github.com/osfans/trime/releases) and enable it in your Android system.
 - Put [`default.yaml`](https://drive.google.com/file/d/12vy_CjO82s3EVE0P9DOu-g98f62zMq5X/view?usp=sharing), `tangutcjkk.schema.yaml` and `tangutcjkk.dict.yaml` into your TRIME user folder (`/sdcard/rime` as default).
 - Create a folder `fonts` in the user folder.
 - Put your favourite Tangut font (in .ttf format) into `fonts` and rename it to `Tangut.ttf`. (e.g. [Noto Serif Tangut](https://drive.google.com/file/d/1KYDYfZc5d8hqFGhgTFRshKuArbKQOC-U/view?usp=sharing))
-- Launch RIME (同文輸入法), enable the scheme, and enjoy.
+- Launch TRIME, enable the scheme, and enjoy.
 
 # Demo
 
