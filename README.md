@@ -4,7 +4,7 @@ Japanese scholar KAWASAKI Keigo (河崎 啓剛) proposed a highly effective Tang
 
 My personal works done were: [Chinese translation](https://drive.google.com/file/d/1MyYBSCnJRaeRvYti4HX6-yckDeh2CJ2S/view?usp=sharing) and proofreading of the report, RIME scheme importing, completion of all Tangut glyphs and components in Unicode (press <kbd>P</kbd> to input the components).
 
-**WARNING: THERE ARE SOME WRONGLY ENCODED CHARACTORS TO BE PROOFREADED. THE COMPLETE CORRECTNESS IS NOT GUARANTEED.** Therefore, if wrong codes are found, an [Issue](https://github.com/Hulenkius/rime_tangutcjkk/issues/new) is welcome.
+**WARNING: THERE ARE SOME WRONGLY ENCODED CHARACTORS TO BE PROOFREADED. THE COMPLETE CORRECTNESS IS NOT GUARANTEED.** Therefore, if wrong codes were found, an [Issue](https://github.com/Hulenkius/rime_tangutcjkk/issues/new) is welcome.
 
 This method is slightly different from the original Cangjie. Details below:
 
