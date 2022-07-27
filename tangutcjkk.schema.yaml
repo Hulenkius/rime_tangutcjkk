@@ -4,7 +4,7 @@
 schema:
   name: Tangut Cangjie
   schema_id: tangutcjkk
-  version: "0.3"
+  version: "2022.07.27"
   author:
     - KAWASAKI Keigo
     - hulenkius
@@ -40,7 +40,7 @@ engine:
   translators:
     - punct_translator
     - reverse_lookup_translator
-    - table_translator
+    - script_translator
   filters:
     - uniquifier
 
@@ -49,10 +49,10 @@ speller:
 
 translator:
   dictionary: tangutcjkk
-  prism: tangutcjkk
   enable_sentence: true
   enable_encoder: true
   encode_commit_history: true
+  
 punctuator:
   import_preset: symbols
 
@@ -64,5 +64,4 @@ recognizer:
 
 style: 
   font_face: "Tangut Yinchuan"
-  font_point: 35
   hanb_font: Tangut.ttf
