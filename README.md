@@ -2,7 +2,7 @@
 
 Japanese scholar KAWASAKI Keigo (河崎 啓剛) proposed a highly effective Tangut input method in his report *[A suggestion for encoding Tangut glyphs](https://drive.google.com/file/d/1VYDGptwJ2uCF-xjuD0qT413YrMr9XpHv/view?usp=sharing)* in 2016. Now this scheme is introduced into RIME, at the purpose of improving the convenience of inputting Tangut.
 
-My personal works done were: [Chinese translation](https://drive.google.com/file/d/1MyYBSCnJRaeRvYti4HX6-yckDeh2CJ2S/view?usp=sharing) and proofreading of the report, RIME scheme importing, completion of all Tangut glyphs and components in Unicode (press <kbd>P</kbd> to input the components).
+My personal works done were: [Chinese translation](https://drive.google.com/file/d/19bWOvPcwu5YjQuGDLxOyabDqPyQNfFvy/view?usp=sharing) and proofreading of the report, RIME scheme importing, completion of all Tangut glyphs and components in Unicode (press <kbd>P</kbd> to input the components).
 
 **WARNING: THERE ARE SOME WRONGLY ENCODED CHARACTORS TO BE PROOFREADED. THE COMPLETE CORRECTNESS IS NOT GUARANTEED.** Therefore, if wrong codes were found, an [Issue](https://github.com/Hulenkius/rime_tangutcjkk/issues/new) would be welcome.
 
@@ -31,7 +31,7 @@ This method is slightly different from the original Cangjie. Details below:
 - Put your favourite Tangut font (in .ttf format) into `fonts` and rename it to `Tangut.ttf`. (e.g. [Noto Serif Tangut](https://drive.google.com/file/d/1KYDYfZc5d8hqFGhgTFRshKuArbKQOC-U/view?usp=sharing))
 - Launch TRIME, enable the scheme, and enjoy.
 
-# Demo
+# Screenshots
 
 Windows:
 
