@@ -1,42 +1,23 @@
-# rime_tangutcjkk
+# 一種參考倉頡輸入法設計的西夏文形碼輸入法
 
-Japanese scholar KAWASAKI Keigo (河崎 啓剛) proposed a highly effective Tangut input method in his report *[A suggestion for encoding Tangut glyphs](https://drive.google.com/file/d/1VYDGptwJ2uCF-xjuD0qT413YrMr9XpHv/view?usp=sharing)* in 2016. Now this scheme is introduced into RIME, at the purpose of improving the convenience of inputting Tangut.
-
-My personal works done were: [Chinese translation](https://drive.google.com/file/d/19bWOvPcwu5YjQuGDLxOyabDqPyQNfFvy/view?usp=sharing) and proofreading of the report, RIME scheme importing, completion of all Tangut glyphs and components in Unicode (press <kbd>P</kbd> to input the components).
-
-**WARNING: THERE ARE SOME WRONGLY ENCODED CHARACTORS TO BE PROOFREADED. THE COMPLETE CORRECTNESS IS NOT GUARANTEED.** Therefore, if wrong codes were found, an [Issue](https://github.com/Hulenkius/rime_tangutcjkk/issues/new) would be welcome.
-
-This method is slightly different from the original Cangjie. Details below:
+日本學者河崎啓剛（KAWASAKI Keigo）於 2016 年在其學術彙報《[A suggestion for encoding Tangut glyphs](https://drive.google.com/file/d/1VYDGptwJ2uCF-xjuD0qT413YrMr9XpHv/view?usp=sharing)》中提出了一種高效的西夏文形碼輸入方案。這種方案參考倉頡輸入法設計，所以叫做「西夏文倉頡輸入法」。但該方案的面貌同倉頡輸入法有較大的不同，其輔助字形表如下圖所示：
 
 ![image](https://user-images.githubusercontent.com/32562298/159518779-70efdbf9-414e-47c8-8518-983971bcccca.png)
 
-# Installation
+講義的中譯本見此：[一項關於編碼西夏文的提議——西夏文倉頡輸入法開發報告](https://drive.google.com/file/d/19bWOvPcwu5YjQuGDLxOyabDqPyQNfFvy/view?usp=sharing)。可作爲輸入法的說明書進行參照。
 
-**!! Make sure you have the latest files !!**
+- 本方案的優勢在於：重碼率極低，在熟諳輸入方式之後能夠達到極高的輸入速度。
+- 本方案的劣勢在於：學習成本過大。在處理模糊不清的西夏文原典時顯得力不從心。
 
-## Windows (Weasel 小狼毫)
+本倉庫從河崎氏講義的檔案中攫取出整個輸入法編碼碼表，導入 RIME 輸入方案中。原方案中未包含的 Unicode 西夏文新加字以及西夏文部件均已在本 RIME 輸入方案中補足。撳 <kbd>P</kbd> 鍵即可輸入部件。
 
-- Install [RIME on Windows](https://github.com/rime/weasel/releases/download/0.14.3/weasel-0.14.3.0-installer.exe).
-- Put `tangutcjkk.schema.yaml` and `tangutcjkk.dict.yaml` into `YOUR_RIME_INSTALLATION_FOLDER/data`
-- Switch to RIME (小狼毫), right-click on the "中" icon, and click "輸入法設定" (IME Settings).
-- Tick "Tangut Cangjie", then click "中" (OK) twice.
-- Press <kbd>Ctrl</kbd>+<kbd>`</kbd> or press <kbd>F4</kbd> and switch to "Tangut Cangjie"
-- The font has been set to "Tangut Yinchuan". If you want to change it, just open `tangutcjkk.schema.yaml` and replace "`Tangut Yinchuan`" in line 66 with the name of a single font you installed. Then right-click on the "中" icon and click "重新部署".
+**原方案中包含錯誤編碼，如有發現，歡迎在 [Issues](https://github.com/Hulenkius/rime_tangutcjkk/issues/new) 提出，我將不定期更正。**
 
-## Android (TRIME 同文輸入法)
+本方案支持全平臺的西夏文輸入。
 
-- Install [RIME on Android](https://github.com/osfans/trime/releases) and enable it in your Android system.
-- Put [`default.yaml`](https://drive.google.com/file/d/12vy_CjO82s3EVE0P9DOu-g98f62zMq5X/view?usp=sharing), `tangutcjkk.schema.yaml` and `tangutcjkk.dict.yaml` into your TRIME user folder (`/sdcard/rime` as default).
-- Create a folder `fonts` in the user folder.
-- Put your favourite Tangut font (in .ttf format) into `fonts` and rename it to `Tangut.ttf`. (e.g. [Noto Serif Tangut](https://drive.google.com/file/d/1KYDYfZc5d8hqFGhgTFRshKuArbKQOC-U/view?usp=sharing))
-- Launch TRIME, enable the scheme, and enjoy.
+- 點擊 [此處](https://codeload.github.com/Hulenkius/rime_tangutcjkk/zip/refs/heads/main) 下載本方案的檔案。
+- 參照 [此處](http://blog.ccamc.org/?p=243) 在對應的平臺上安裝 [RIME 輸入法](http://rime.im/) 並配置方案。安卓端可參考 [英文版 README](README_en.md)。
 
-# Screenshots
-
-Windows:
+# 使用範例
 
 ![weasel](https://user-images.githubusercontent.com/32562298/159846588-dff4a21f-b3cf-4a57-8e80-0aa91f692ceb.gif)
-
-Android:
-
-![trime](https://user-images.githubusercontent.com/32562298/162569642-1d994ca4-c8c0-4f8a-89d2-603f9904ca89.gif)
