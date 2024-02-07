@@ -21,7 +21,7 @@ This method is slightly different from the original Cangjie. Details below:
 - Switch to RIME (小狼毫), right-click on the "中" icon, and click "輸入法設定" (IME Settings).
 - Tick "Tangut Cangjie", then click "中" (OK) twice.
 - Press <kbd>Ctrl</kbd>+<kbd>`</kbd> or press <kbd>F4</kbd> and switch to "Tangut Cangjie"
-- The font has been set to "Tangut Yinchuan". If you want to change it, just open `tangutcjkk.schema.yaml` and replace "`Tangut Yinchuan`" in line 66 with the name of a single font you installed. Then right-click on the "中" icon and click "重新部署".
+- The font has been pre-set. If you want to change it, just open `tangutcjkk.schema.yaml` and replace the existing setting in line 70 with the name of the font(s) you installed. Then right-click on the "中" icon in your taskbar and click "重新部署".
 
 ## Android (TRIME 同文輸入法)
 
