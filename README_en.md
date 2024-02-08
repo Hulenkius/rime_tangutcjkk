@@ -16,7 +16,7 @@ This method is slightly different from the original Cangjie. Details below:
 
 ## Windows (Weasel 小狼毫)
 
-- Install [RIME on Windows](https://github.com/rime/weasel/releases/download/0.14.3/weasel-0.14.3.0-installer.exe).
+- Install [RIME on Windows](https://rime.im/).
 - Put `tangutcjkk.schema.yaml` and `tangutcjkk.dict.yaml` into `YOUR_RIME_INSTALLATION_FOLDER/data`
 - Switch to RIME (小狼毫), right-click on the "中" icon, and click "輸入法設定" (IME Settings).
 - Tick "Tangut Cangjie", then click "中" (OK) twice.
