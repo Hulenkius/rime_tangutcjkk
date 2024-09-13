@@ -2,6 +2,12 @@
 
 [English Version](README_en.md)
 
+---
+
+輸入方案練習工具 (practice tool)：https://vistudium.top/tangut/
+
+---
+
 日本學者河崎啓剛（KAWASAKI Keigo）於 2016 年在其學術彙報《[A suggestion for encoding Tangut glyphs](https://drive.google.com/file/d/1VYDGptwJ2uCF-xjuD0qT413YrMr9XpHv/view?usp=sharing)》中提出了一種高效的西夏文形碼輸入方案。這種方案參考倉頡輸入法設計，所以叫做「西夏文倉頡輸入法」。但該方案的面貌同倉頡輸入法有較大的不同，其輔助字形表如下圖所示：
 
 ![image](https://user-images.githubusercontent.com/32562298/159518779-70efdbf9-414e-47c8-8518-983971bcccca.png)
