@@ -1,5 +1,7 @@
 # A Glyph-based Input Method for Tangut based on Cangjie
 
+> practice tool：https://vistudium.top/tangut/
+
 Japanese scholar KAWASAKI Keigo (河崎 啓剛) proposed a highly effective Tangut input method in his report *[A suggestion for encoding Tangut glyphs](https://drive.google.com/file/d/1VYDGptwJ2uCF-xjuD0qT413YrMr9XpHv/view?usp=sharing)* in 2016. Now this scheme is introduced into RIME, at the purpose of improving the convenience of inputting Tangut.
 
 My personal works done were: [Chinese translation](https://drive.google.com/file/d/19bWOvPcwu5YjQuGDLxOyabDqPyQNfFvy/view?usp=sharing) and proofreading of the report, RIME scheme importing, completion of all Tangut glyphs and components in Unicode (press <kbd>P</kbd> to input the components).
