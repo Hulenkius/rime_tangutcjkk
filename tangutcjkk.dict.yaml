@@ -1308,8 +1308,8 @@ sort: original
 𗋳	embtrx
 𗋴	esdx
 𗋴	esdclx
-𗋵	elqi
-𗋵	eldqxi
+𗋵	elmi
+𗋵	eldmmxi
 𗋶	easq
 𗋶	easdq
 𗋷	eahk
@@ -1344,8 +1344,8 @@ sort: original
 𗌅	esdmxx
 𗌆	esdw
 𗌆	esdcmbw
-𗌇	elqk
-𗌇	elbrk
+𗌇	elmk
+𗌇	eldmmrk
 𗌈	eybp
 𗌈	eymbxip
 𗌉	eyxl
@@ -2488,8 +2488,8 @@ sort: original
 𗖏	snvsdqu
 𗖐	svlmq
 𗖐	snvlmbq
-𗖑	svldq
-𗖑	snvldq
+𗖑	svldm
+𗖑	snvldmm
 𗖒	svlla
 𗖒	snvlla
 𗖓	svllb
@@ -11293,7 +11293,7 @@ sort: original
 𘥯	pmlqj
 𘥰	psdq
 𘥱	psdqu
-𘥲	plnw
+𘥲	pldmm
 𘥳	pydqj
 𘥴	pynlll
 𘥵	pbqq
