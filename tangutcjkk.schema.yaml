@@ -67,6 +67,6 @@ recognizer:
   import_preset: default
 
 style: 
-  font_face: "唐兀銀川, Tangut Yinchuan, Noto Serif Tangut, Tangut N4694, new Tangut, Tangut TWU, Mojikyo Tangut"
+  font_face: "唐兀銀川, Tangut Yinchuan Beta, Tangut Yinchuan, Noto Serif Tangut, Tangut N4694, new Tangut, Tangut TWU, Mojikyo Tangut"
   hanb_font: Tangut.ttf
   font_point: 25
