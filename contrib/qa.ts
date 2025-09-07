@@ -69,11 +69,11 @@ function code_should_be_lowercase_alphabetic(dict: Map<string, CangjieCode>) {
   const codeRegex = /^[a-z]+$/;
   for (const [char, code] of dict) {
     if (!codeRegex.test(code.short)) {
-      console.error(`Short code "${code.short}" for character U+${char.codePointAt(0)!.toString(16).toUpperCase()} "${char}" is not lowercase alphabetic`);
+      console.error(`Short code "${code.short}" for character ${format_U_plus(char)} "${char}" is not lowercase alphabetic`);
       process.exitCode = 1;
     }
     if (!codeRegex.test(code.full)) {
-      console.error(`Full code "${code.full}" for character U+${char.codePointAt(0)!.toString(16).toUpperCase()} "${char}" is not lowercase alphabetic`);
+      console.error(`Full code "${code.full}" for character ${format_U_plus(char)} "${char}" is not lowercase alphabetic`);
       process.exitCode = 1;
     }
   }
@@ -86,10 +86,19 @@ function code_should_be_lowercase_alphabetic(dict: Map<string, CangjieCode>) {
 function short_should_be_subsequence_of_full(dict: Map<string, CangjieCode>) {
   for (const [char, code] of dict) {
     if (!is_subsequence(code.short, code.full)) {
-      console.error(`Short code "${code.short}" is not a subsequence of full code "${code.full}" for character U+${char.codePointAt(0)!.toString(16).toUpperCase()} "${char}"`);
+      console.error(`Short code "${code.short}" is not a subsequence of full code "${code.full}" for character ${format_U_plus(char)} "${char}"`);
       process.exitCode = 1;
     }
   }
+}
+
+/**
+ * Formats a character as a Unicode code point.
+ * @param char The character to format.
+ * @returns The formatted Unicode code point string.
+ */
+function format_U_plus(char: string): string {
+  return `U+${char.codePointAt(0)!.toString(16).toUpperCase()}`;
 }
 
 main();
