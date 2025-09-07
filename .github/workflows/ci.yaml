@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  quality-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          # Use lts/* when 24 is no longer supported
+          node-version: '24'
+      - name: Run quality checks
+        run: node ./contrib/qa.ts ./tangutcjkk.dict.yaml
