@@ -10,11 +10,12 @@ function main() {
   }
   const content = fs.readFileSync(path.resolve(dictPath), "utf-8");
   const dict = readCangjieDict(content);
-  code_should_be_lowercase_alphabetic(dict);
-  short_should_be_subsequence_of_full(dict);
+  codeShouldHaveNoDuplicates(dict);
+  codeShouldBeLowercaseAlphabetic(dict);
+  shortShouldBeSubsequenceOfFull(dict);
 }
 
-type CangjieCode = { short: string, full: string };
+type CangjieCode = { short: string; full: string; duplicates?: string[] };
 /**
  * Reads a Cangjie dictionary file and returns a map of characters to their Cangjie codes.
  * @param dictContent Content of a Cangjie dictionary file.
@@ -26,17 +27,22 @@ function readCangjieDict(dictContent: string): Map<string, CangjieCode> {
   for (const line of lines) {
     const parts = line.split("\t");
     if (parts.length === 2) {
-        const [char, code] = parts;
-        if (code.startsWith("p")) {
-            // Skip component codes
-            continue;
-        }
-        if (dict.has(char)) {
-            const entry = dict.get(char)!;
-            entry.full = code;
+      const [char, code] = parts;
+      if (code.startsWith("p")) {
+        // Skip component codes
+        continue;
+      }
+      if (dict.has(char)) {
+        const entry = dict.get(char)!;
+        if (entry.short !== entry.full) {
+          entry.duplicates ??= [];
+          entry.duplicates.push(code);
         } else {
-            dict.set(char, { short: code, full: code });
+          entry.full = code;
         }
+      } else {
+        dict.set(char, { short: code, full: code });
+      }
     }
   }
   return dict;
@@ -48,10 +54,10 @@ function readCangjieDict(dictContent: string): Map<string, CangjieCode> {
  * @param str The string to check against.
  * @returns True if `sub` is a subsequence of `str`, false otherwise.
  * @example
- * is_subsequence("abc", "aXbYcZ") // true
- * is_subsequence("abc", "acb") // false
+ * isSubsequence("abc", "aXbYcZ") // true
+ * isSubsequence("abc", "acb") // false
  */
-function is_subsequence(sub: string, str: string): boolean {
+function isSubsequence(sub: string, str: string): boolean {
   let subIndex = 0;
   for (let i = 0; i < str.length && subIndex < sub.length; i++) {
     if (str[i] === sub[subIndex]) {
@@ -65,15 +71,38 @@ function is_subsequence(sub: string, str: string): boolean {
  * Checks if all Cangjie codes in the dictionary are lowercase alphabetic.
  * @param dict A map of characters to their Cangjie codes.
  */
-function code_should_be_lowercase_alphabetic(dict: Map<string, CangjieCode>) {
+function codeShouldBeLowercaseAlphabetic(dict: Map<string, CangjieCode>) {
   const codeRegex = /^[a-z]+$/;
   for (const [char, code] of dict) {
     if (!codeRegex.test(code.short)) {
-      console.error(`Short code "${code.short}" for character ${format_U_plus(char)} "${char}" is not lowercase alphabetic`);
+      console.error(
+        `Short code "${code.short}" for character ${formatUPlus(
+          char
+        )} "${char}" is not lowercase alphabetic`
+      );
       process.exitCode = 1;
     }
     if (!codeRegex.test(code.full)) {
-      console.error(`Full code "${code.full}" for character ${format_U_plus(char)} "${char}" is not lowercase alphabetic`);
+      console.error(
+        `Full code "${code.full}" for character ${formatUPlus(
+          char
+        )} "${char}" is not lowercase alphabetic`
+      );
+      process.exitCode = 1;
+    }
+  }
+}
+
+function codeShouldHaveNoDuplicates(dict: Map<string, CangjieCode>) {
+  for (const [char, code] of dict) {
+    if (code.duplicates && code.duplicates.length > 0) {
+      console.error(
+        `Character ${formatUPlus(char)} "${char}" has duplicate codes: ${[
+          code.short,
+          code.full,
+          ...code.duplicates,
+        ].join(", ")}`
+      );
       process.exitCode = 1;
     }
   }
@@ -83,10 +112,14 @@ function code_should_be_lowercase_alphabetic(dict: Map<string, CangjieCode>) {
  * Checks if all short Cangjie codes in the dictionary are subsequences of their full codes.
  * @param dict A map of characters to their Cangjie codes.
  */
-function short_should_be_subsequence_of_full(dict: Map<string, CangjieCode>) {
+function shortShouldBeSubsequenceOfFull(dict: Map<string, CangjieCode>) {
   for (const [char, code] of dict) {
-    if (!is_subsequence(code.short, code.full)) {
-      console.error(`Short code "${code.short}" is not a subsequence of full code "${code.full}" for character ${format_U_plus(char)} "${char}"`);
+    if (!isSubsequence(code.short, code.full)) {
+      console.error(
+        `Short code "${code.short}" is not a subsequence of full code "${
+          code.full
+        }" for character ${formatUPlus(char)} "${char}"`
+      );
       process.exitCode = 1;
     }
   }
@@ -97,7 +130,7 @@ function short_should_be_subsequence_of_full(dict: Map<string, CangjieCode>) {
  * @param char The character to format.
  * @returns The formatted Unicode code point string.
  */
-function format_U_plus(char: string): string {
+function formatUPlus(char: string): string {
   return `U+${char.codePointAt(0)!.toString(16).toUpperCase()}`;
 }
 
