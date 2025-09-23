@@ -28,8 +28,8 @@ function readCangjieDict(dictContent: string): Map<string, CangjieCode> {
     const parts = line.split("\t");
     if (parts.length === 2) {
       const [char, code] = parts;
-      if (code.startsWith("p")) {
-        // Skip component codes
+      if (code.startsWith("p") || code.startsWith("iz")) {
+        // Skip component codes and IDC codes.
         continue;
       }
       if (dict.has(char)) {
