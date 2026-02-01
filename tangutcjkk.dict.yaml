@@ -938,6 +938,8 @@ sort: original
 𗈎	salldjpi
 𗈏	sxiu
 𗈏	sxicbqu
+𗈏	sxyu
+𗈏	sxycbqu
 𗈐	stbp
 𗈐	stbap
 𗈑	scqx
@@ -1523,6 +1525,7 @@ sort: original
 𗍮	jltnlq
 𗍯	jlatj
 𗍰	jlnqa
+𗍰	jlnwa
 𗍰	jlnlqa
 𗍱	jlwli
 𗍱	jlwlydspi
@@ -2974,6 +2977,8 @@ sort: original
 𗚠	tjebqu
 𗚡	tjyln
 𗚡	tjyllxnn
+𗚡	tjmln
+𗚡	tjmllxnn
 𗚢	tjmeo
 𗚢	tjmleo
 𗚣	tjmss
@@ -3082,6 +3087,7 @@ sort: original
 𗛣	tjmmx
 𗛣	tjmbmtmx
 𗛤	tjmbp
+𗛤	tjmxp
 𗛤	tjmbxhp
 𗛥	tjmbx
 𗛥	tjmbrx
@@ -4377,6 +4383,8 @@ sort: original
 𗧋	arko
 𗧌	asmx
 𗧌	asmwx
+𗧌	asmk
+𗧌	asmmnk
 𗧍	asml
 𗧍	asmal
 𗧎	asmq
@@ -5854,6 +5862,7 @@ sort: original
 𗴤	vdzcw
 𗴤	vdzcmbw
 𗴥	vxwx
+𗴥	vxmnk
 𗴦	vxvmt
 𗴦	vxvmbt
 𗴧	vxvls
@@ -7130,6 +7139,8 @@ sort: original
 𗿲	zmmlnemw
 𗿳	ztlp
 𗿳	ztlzlllp
+𗿳	zltp
+𗿳	zltzlllp
 𗿴	zhkr
 𗿴	zhqkcr
 𗿵	zybp
@@ -7153,6 +7164,7 @@ sort: original
 𗿾	znak
 𗿾	zntambunk
 𗿿	xila
+𗿿	xyla
 𗿿	xivla
 𘀀	xllb
 𘀁	xlwwb
@@ -8370,11 +8382,17 @@ sort: original
 𘋅	yws
 𘋅	ybws
 𘋆	yknnn
+𘋆	yennn
 𘋆	ylnknnnn
+𘋆	ylnennnn
 𘋇	ykwbq
+𘋇	yewbq
 𘋇	ylnkwbqq
+𘋇	ylnewbqq
 𘋈	ykaib
+𘋈	yeaib
 𘋈	ylnkainb
+𘋈	ylneainb
 𘋉	yaxnn
 𘋊	yasx
 𘋋	yasgp
@@ -9230,6 +9248,8 @@ sort: original
 𘒸	nqjbrx
 𘒹	mklrx
 𘒹	mxnklrx
+𘒹	nklrx
+𘒹	nknklrx
 𘒺	njmni
 𘒺	nnlqjmnpi
 𘒻	njmsp
@@ -9389,6 +9409,7 @@ sort: original
 𘔉	mtnmu
 𘔉	mlebtntjmcllsbu
 𘔊	malsl
+𘔊	mlsml
 𘔊	mhalsmzllll
 𘔋	mgrx
 𘔋	mxgrx
@@ -10282,6 +10303,8 @@ sort: original
 𘛔	tlnksbw
 𘛕	txsml
 𘛕	tlxsmlzllll
+𘛕	tlsml
+𘛕	tlxlsmzllll
 𘛖	tbtu
 𘛖	tbtwu
 𘛗	tmfmb
