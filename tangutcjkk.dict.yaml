@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: tangutcjkk
-version: "2025.07.24"
+version: "2026.01.31"
 sort: original
 ...
 
@@ -32,7 +32,7 @@ sort: original
 𗀎	mbqi
 𗀎	mbqxi
 𗀏	mbxp
-𗀏	mbxhp
+𗀏	mxhp
 𗀐	mcvu
 𗀐	mcjvbtu
 𗀑	mtxp
@@ -1599,8 +1599,8 @@ sort: original
 𗎤	msmjx
 𗎤	msmtjydx
 𗎥	sla
-𗎦	slmn
-𗎦	slmxnn
+𗎦	smln
+𗎦	smlxnn
 𗎧	shqk
 𗎨	shts
 𗎨	shhbts
@@ -4857,7 +4857,7 @@ sort: original
 𗫉	acscba
 𗫊	arjp
 𗫊	artjxp
-𗫋	atxo
+𗫋	arxo
 𗫋	artjxo
 𗫌	arqi
 𗫌	arlqdjpi
@@ -5341,7 +5341,7 @@ sort: original
 𗯤	ckrxp
 𗯥	ckrxe
 𗯥	ckrxme
-𗯦	cmbtu
+𗯦	csmu
 𗯦	csmbtu
 𗯧	cslmp
 𗯧	cslmbp
@@ -6017,8 +6017,8 @@ sort: original
 𗵶	wbtfmb
 𗵷	wtnjk
 𗵷	wbtntjnk
-𗵸	mtnxp
-𗵸	mbtntjmxp
+𗵸	wtnxp
+𗵸	wbtntjmxp
 𗵹	gbsyl
 𗵹	gbsyxl
 𗵺	qbntl
@@ -6028,8 +6028,7 @@ sort: original
 𗵽	wxa
 𗵾	wxxi
 𗵿	wxsp
-𗶀	mkz
-𗶀	mnkz
+𗶀	wxz
 𗶁	wxyx
 𗶂	wxfd
 𗶃	wxrk
@@ -6763,8 +6762,8 @@ sort: original
 𗼀	hasgp
 𗼁	hallo
 𗼁	hallntjbo
-𗼂	aeml
-𗼂	aemtjcll
+𗼂	haeml
+𗼂	haemtjcll
 𗼃	al
 𗼄	almo
 𗼅	alsnn
@@ -6799,12 +6798,12 @@ sort: original
 𗼞	alrx
 𗼟	alcyb
 𗼟	alcymb
-𗼠	alza
-𗼡	aletj
-𗼢	alwxo
-𗼣	almwo
-𗼣	almbwo
-𗼤	alsz
+𗼠	alsz
+𗼡	alza
+𗼢	aletj
+𗼣	alwxo
+𗼤	almwo
+𗼤	almbwo
 𗼥	alzcx
 𗼦	almji
 𗼦	almtjxi
@@ -7838,7 +7837,7 @@ sort: original
 𘆠	nqb
 𘆠	nlqb
 𘆡	nqa
-𘆡	nlqa
+𘆡	nqa
 𘆢	nqss
 𘆢	nlqss
 𘆣	nqnq
@@ -8510,12 +8509,12 @@ sort: original
 𘌒	fmbyla
 𘌓	fbnta
 𘌓	fmbnta
-𘌔	fbyxo
-𘌔	fmbyxo
-𘌕	fbtjo
-𘌕	fmbtjo
-𘌖	fbsz
-𘌖	fmbsz
+𘌔	fbsz
+𘌔	fmbsz
+𘌕	fbyxo
+𘌕	fmbyxo
+𘌖	fbtjo
+𘌖	fmbtjo
 𘌗	fbnxw
 𘌗	fmbnxw
 𘌘	fbbht
@@ -9081,8 +9080,8 @@ sort: original
 𘑨	sxye
 𘑨	slxye
 𘑩	sbx
-𘑪	swmua
-𘑪	sbwmbua
+𘑪	sbmua
+𘑪	sqbmbua
 𘑫	swo
 𘑫	sbwo
 𘑬	swa
@@ -31266,4 +31265,6 @@ sort: original
 𘈌𗧓
 𘈌𘉞
 𘝹𗧓
+
 𘝹𘉞
+
