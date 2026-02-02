@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: tangutcjkk
-version: "2026.02.01"
+version: "2026.02.02"
 sort: original
 ...
 
@@ -7849,7 +7849,7 @@ sort: original
 𘆠	nqb
 𘆠	nlqb
 𘆡	nqa
-𘆡	nqa
+𘆡	nlqa
 𘆢	nqss
 𘆢	nlqss
 𘆣	nqnq
@@ -7972,7 +7972,7 @@ sort: original
 𘇞	nnlqnta
 𘇟	nqp
 𘇟	nnlqp
-𘇠	nlqa
+𘇠	nqa
 𘇠	nnlqa
 𘇡	nxtpi
 𘇡	nnlxtpi
@@ -10406,8 +10406,8 @@ sort: original
 𘜉	ntbwu
 𘜊	nwtx
 𘜊	ntbwtx
-𘜋	nwmz
-𘜋	ntbwmz
+𘜋	nwmxx
+𘜋	ntbwmxx
 𘜌	nwmxa
 𘜌	ntbwmxa
 𘜍	ntp
