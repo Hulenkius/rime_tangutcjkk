@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: tangutcjkk
-version: "2026.01.31"
+version: "2026.02.02"
 sort: original
 ...
 
@@ -37,7 +37,8 @@ sort: original
 𗀐	mcjvbtu
 𗀑	mtxp
 𗀒	mrxp
-𗀓	mzvyd
+𗀓	mzvm
+𗀓	mzvydmm
 𗀔	mgap
 𗀕	mllb
 𗀕	mllmzjb
@@ -168,9 +169,9 @@ sort: original
 𗁡	lntbwu
 𗁢	lzxb
 𗁣	lvda
-𗁣	lvjda
+𗁣	lvda
 𗁤	lvdq
-𗁤	lvjdnq
+𗁤	lvdnq
 𗁥	lgnlq
 𗁥	lmgnlq
 𗁦	lgrx
@@ -570,7 +571,7 @@ sort: original
 𗅃	llnnqp
 𗅄	llsbp
 𗅅	llvhd
-𗅅	llvhvjd
+𗅅	llvhvd
 𗅆	lltjx
 𗅇	llmtx
 𗅈	llmfu
@@ -631,7 +632,7 @@ sort: original
 𗅪	llntl
 𗅪	llntcll
 𗅫	llvda
-𗅫	llvjda
+𗅫	llvda
 𗅬	llmmt
 𗅬	llmtjmbt
 𗅭	llqrx
@@ -641,8 +642,8 @@ sort: original
 𗅯	llmbwa
 𗅰	llmux
 𗅰	llmburx
-𗅱	llmto
-𗅱	llmtmso
+𗅱	llmtp
+𗅱	llmtmsp
 𗅲	llmrp
 𗅲	llmrxp
 𗅳	llasb
@@ -842,7 +843,7 @@ sort: original
 𗇚	chhbt
 𗇛	chqk
 𗇜	cvdj
-𗇜	cvjdtj
+𗇜	cvdtj
 𗇝	cmclu
 𗇝	cntjmcllsbu
 𗇞	sfd
@@ -937,6 +938,8 @@ sort: original
 𗈎	salldjpi
 𗈏	sxiu
 𗈏	sxicbqu
+𗈏	sxyu
+𗈏	sxycbqu
 𗈐	stbp
 𗈐	stbap
 𗈑	scqx
@@ -1090,7 +1093,7 @@ sort: original
 𗉬	ste
 𗉭	ssba
 𗉮	svdj
-𗉮	svjdtj
+𗉮	svdtj
 𗉯	seru
 𗉯	serbtu
 𗉰	stjw
@@ -1471,7 +1474,7 @@ sort: original
 𗍐	gtbl
 𗍐	gtbwll
 𗍑	gtbd
-𗍑	gtbvjd
+𗍑	gtbvd
 𗍒	gnmx
 𗍒	gntjmx
 𗍓	gvzo
@@ -1522,6 +1525,7 @@ sort: original
 𗍮	jltnlq
 𗍯	jlatj
 𗍰	jlnqa
+𗍰	jlnwa
 𗍰	jlnlqa
 𗍱	jlwli
 𗍱	jlwlydspi
@@ -1556,7 +1560,7 @@ sort: original
 𗎆	jvcx
 𗎇	jvsms
 𗎈	jvwsp
-𗎉	jvhhe
+𗎉	jvhle
 𗎉	jvhhlne
 𗎊	jvxx
 𗎋	jvxvn
@@ -1763,7 +1767,7 @@ sort: original
 𗐉	xtlx
 𗐉	xtlyx
 𗐊	xrtx
-𗐋	xyd
+𗐋	xvyd
 𗐌	xal
 𗐍	xczl
 𗐍	xczll
@@ -1915,7 +1919,7 @@ sort: original
 𗑨	tnxcll
 𗑩	tnxw
 𗑪	tvda
-𗑪	tvjda
+𗑪	tvda
 𗑫	tvlp
 𗑫	tvlsbp
 𗑬	texx
@@ -2302,7 +2306,7 @@ sort: original
 𗔯	tnrtjgx
 𗔰	tesa
 𗔰	tesmala
-𗔱	tlbo
+𗔱	tlwo
 𗔱	tlsbwao
 𗔲	txia
 𗔲	txifgba
@@ -2358,7 +2362,7 @@ sort: original
 𗕎	smnqbnnn
 𗕏	smslg
 𗕐	smsvd
-𗕐	smsvjd
+𗕐	smsvd
 𗕑	smlmp
 𗕑	smlmnkp
 𗕒	smlle
@@ -2795,10 +2799,10 @@ sort: original
 𗘶	wllr
 𗘷	wlmle
 𗘷	wllmle
-𗘸	wlyd
-𗘸	wllyd
-𗘹	wlydu
-𗘹	wllydu
+𗘸	wlvyd
+𗘸	wllvyd
+𗘹	wlvyu
+𗘹	wllvydu
 𗘺	wlmsb
 𗘺	wllmsb
 𗘻	wllnq
@@ -2868,7 +2872,7 @@ sort: original
 𗙛	wlntl
 𗙛	wllntcll
 𗙜	wlvdj
-𗙜	wllvjdtj
+𗙜	wllvdtj
 𗙝	wlqjd
 𗙝	wllqjfd
 𗙞	wlmjb
@@ -2924,7 +2928,7 @@ sort: original
 𗙽	wstbp
 𗙾	wszo
 𗙿	wstsx
-𗚀	wsnjx
+𗚀	wsnmx
 𗚀	wsntjmnx
 𗚁	wsmjx
 𗚁	wsmtjydx
@@ -2973,6 +2977,8 @@ sort: original
 𗚠	tjebqu
 𗚡	tjyln
 𗚡	tjyllxnn
+𗚡	tjmln
+𗚡	tjmllxnn
 𗚢	tjmeo
 𗚢	tjmleo
 𗚣	tjmss
@@ -3006,7 +3012,7 @@ sort: original
 𗚷	tjsst
 𗚷	tjssbt
 𗚸	tjvdn
-𗚸	tjvjdsnn
+𗚸	tjvdsnn
 𗚹	tjeox
 𗚺	tjean
 𗚺	tjeannn
@@ -3081,6 +3087,7 @@ sort: original
 𗛣	tjmmx
 𗛣	tjmbmtmx
 𗛤	tjmbp
+𗛤	tjmxp
 𗛤	tjmbxhp
 𗛥	tjmbx
 𗛥	tjmbrx
@@ -3561,7 +3568,7 @@ sort: original
 𗟛	butj
 𗟛	bsxutj
 𗟜	vatj
-𗟜	vjdatj
+𗟜	vdatj
 𗟝	yqtj
 𗟝	ydqydqtj
 𗟞	mrtj
@@ -3923,8 +3930,8 @@ sort: original
 𗢗	holga
 𗢘	hlmtx
 𗢘	holmtx
-𗢙	hlkyg
-𗢙	holksyfg
+𗢙	hlkyf
+𗢙	holksyf
 𗢚	hlsst
 𗢚	holssbt
 𗢛	hlsyw
@@ -4228,7 +4235,7 @@ sort: original
 𗥱	asmp
 𗥱	asmsp
 𗥲	asbo
-𗥳	aslp
+𗥳	asbp
 𗥳	asblp
 𗥴	asfd
 𗥵	assg
@@ -4376,6 +4383,8 @@ sort: original
 𗧋	arko
 𗧌	asmx
 𗧌	asmwx
+𗧌	asmk
+𗧌	asmmnk
 𗧍	asml
 𗧍	asmal
 𗧎	asmq
@@ -4917,7 +4926,7 @@ sort: original
 𗫧	avttba
 𗫨	avru
 𗫨	avrtjbtmmu
-𗫩	avto
+𗫩	avro
 𗫩	avrtjxo
 𗫪	avro
 𗫪	avrocxo
@@ -5080,7 +5089,6 @@ sort: original
 𗭓	ybwsx
 𗭔	ybfr
 𗭕	ybckr
-𗭖	ybrw
 𗭖	ybrbw
 𗭗	ybnta
 𗭘	ybzdq
@@ -5234,7 +5242,7 @@ sort: original
 𗮩	cbusdq
 𗮪	culdm
 𗮪	cbuldmm
-𗮫	cuhhe
+𗮫	cuhle
 𗮫	cbuhhlne
 𗮬	cuhqk
 𗮬	cbuhqk
@@ -5817,43 +5825,44 @@ sort: original
 𗴎	zlvt
 𗴎	zlvhhbt
 𗴏	vdnnn
-𗴏	vjdnnnn
+𗴏	vdnnnn
 𗴐	vdy
-𗴐	vjdy
+𗴐	vdy
 𗴑	vdbqu
-𗴑	vjdbqu
+𗴑	vdbqu
 𗴒	vda
-𗴒	vjda
+𗴒	vda
 𗴓	vdnq
 𗴔	vdnx
 𗴕	vdgjo
 𗴖	vdyx
-𗴖	vjdyx
+𗴖	vdyx
 𗴗	vdwa
-𗴗	vjdwa
+𗴗	vdwa
 𗴘	vdxx
 𗴙	vdrx
-𗴙	vjdrx
+𗴙	vdrx
 𗴚	vdsbw
 𗴛	vdmxg
-𗴛	vjdmxg
+𗴛	vdmxg
 𗴜	vdlrx
-𗴜	vjdlrx
+𗴜	vdlrx
 𗴝	vdtjq
-𗴝	vjdtjnq
+𗴝	vdtjnq
 𗴞	vdaa
-𗴞	vjdaa
+𗴞	vdaa
 𗴟	vdxzq
 𗴠	vdcxl
-𗴠	vjdclxll
+𗴠	vdclxll
 𗴡	vdntu
-𗴡	vjdntsbu
+𗴡	vdntsbu
 𗴢	vdzcx
 𗴣	vdadi
-𗴣	vjdadjpi
+𗴣	vdadjpi
 𗴤	vdzcw
-𗴤	vjdzcmbw
+𗴤	vdzcmbw
 𗴥	vxwx
+𗴥	vxmnk
 𗴦	vxvmt
 𗴦	vxvmbt
 𗴧	vxvls
@@ -6353,7 +6362,7 @@ sort: original
 𗸱	maymbmw
 𗸲	mayba
 𗸲	maymbsa
-𗸳	manti
+𗸳	manxi
 𗸳	mantxtpi
 𗸴	mlmjp
 𗸴	mxlmtjxp
@@ -6878,7 +6887,7 @@ sort: original
 𗽗	ainta
 𗽘	aizdq
 𗽙	aivdv
-𗽙	aivjdjv
+𗽙	aivdjv
 𗽚	aillp
 𗽚	aillnqp
 𗽛	ailsp
@@ -7130,6 +7139,8 @@ sort: original
 𗿲	zmmlnemw
 𗿳	ztlp
 𗿳	ztlzlllp
+𗿳	zltp
+𗿳	zltzlllp
 𗿴	zhkr
 𗿴	zhqkcr
 𗿵	zybp
@@ -7153,6 +7164,7 @@ sort: original
 𗿾	znak
 𗿾	zntambunk
 𗿿	xila
+𗿿	xyla
 𗿿	xivla
 𘀀	xllb
 𘀁	xlwwb
@@ -7237,7 +7249,7 @@ sort: original
 𘀩	ytmzl
 𘀩	ybtmzmlll
 𘀪	yxwb
-𘀫	yxvjd
+𘀫	yxvd
 𘀬	yxmal
 𘀭	yxap
 𘀮	yxsbp
@@ -7579,8 +7591,8 @@ sort: original
 𘄉	smbsap
 𘄊	sbntu
 𘄊	smbntsbu
-𘄋	sbmzk
-𘄋	smbmzmlnk
+𘄋	sbmze
+𘄋	smbmzmlne
 𘄌	sbtlr
 𘄌	smbtlsr
 𘄍	sbrtx
@@ -7730,22 +7742,22 @@ sort: original
 𘅨	sxybumsb
 𘅩	sxfbw
 𘅪	sxfda
-𘅫	sxrox
+𘅫	sxrcx
 𘅫	sxrocx
 𘅬	sxnbp
 𘅬	sxntmbp
 𘅭	nkntx
 𘅭	nkntsx
-𘅮	sxtjo
-𘅮	sxtjao
+𘅮	sxtjp
+𘅮	sxtjap
 𘅯	sxmmb
 𘅯	sxmbtmmsb
 𘅰	sxyqi
 𘅰	sxydqdjpi
 𘅱	sllmd
 𘅱	sxllmtjyd
-𘅲	sxayx
-𘅲	sxaylx
+𘅲	sxnxx
+𘅲	sxnxylx
 𘅳	sxnxq
 𘅳	sxnxfjdq
 𘅴	sxmtm
@@ -7764,7 +7776,7 @@ sort: original
 𘅺	sxtjahhbt
 𘅻	sxrxb
 𘅻	sxrocxmsb
-𘅼	sxnju
+𘅼	sxnmu
 𘅼	sxntjmfgbu
 𘅽	sxrxd
 𘅽	sxrocxmtjyd
@@ -7837,13 +7849,13 @@ sort: original
 𘆠	nqb
 𘆠	nlqb
 𘆡	nqa
-𘆡	nqa
+𘆡	nlqa
 𘆢	nqss
 𘆢	nlqss
 𘆣	nqnq
 𘆣	nlqnq
-𘆤	nqnkl
-𘆤	nlqnkl
+𘆤	nqmxl
+𘆤	nlqmxl
 𘆥	nqmsp
 𘆥	nlqmsp
 𘆦	nqla
@@ -7960,7 +7972,7 @@ sort: original
 𘇞	nnlqnta
 𘇟	nqp
 𘇟	nnlqp
-𘇠	nlqa
+𘇠	nqa
 𘇠	nnlqa
 𘇡	nxtpi
 𘇡	nnlxtpi
@@ -7986,8 +7998,8 @@ sort: original
 𘇭	zlllz
 𘇮	zlzi
 𘇮	zlllzi
-𘇯	zlzqj
-𘇯	zlllzqj
+𘇯	zlsqj
+𘇯	zlllsqj
 𘇰	zd
 𘇱	zdp
 𘇲	zda
@@ -8065,8 +8077,8 @@ sort: original
 𘈠	mlqjrx
 𘈡	mjsml
 𘈡	mlqjsmal
-𘈢	mjsqu
-𘈢	mlqjsqydqu
+𘈢	mjsgu
+𘈢	mlqjsgydqu
 𘈣	mqmsb
 𘈣	mydqmsb
 𘈤	mqmsx
@@ -8107,11 +8119,11 @@ sort: original
 𘈷	mzlllxx
 𘈸	mlsma
 𘈸	mzlllsma
-𘈹	mlsyw
-𘈹	mzlllsyw
+𘈹	mlsmw
+𘈹	mzlllsmw
 𘈺	lqa
 𘈺	lgqa
-𘈻	sqsu
+𘈻	sqsbu
 𘈻	sdqsbu
 𘈼	sqlsx
 𘈼	sdqlsx
@@ -8370,11 +8382,17 @@ sort: original
 𘋅	yws
 𘋅	ybws
 𘋆	yknnn
+𘋆	yennn
 𘋆	ylnknnnn
+𘋆	ylnennnn
 𘋇	ykwbq
+𘋇	yewbq
 𘋇	ylnkwbqq
+𘋇	ylnewbqq
 𘋈	ykaib
+𘋈	yeaib
 𘋈	ylnkainb
+𘋈	ylneainb
 𘋉	yaxnn
 𘋊	yasx
 𘋋	yasgp
@@ -9145,7 +9163,7 @@ sort: original
 𘒎	nmsyw
 𘒎	ntjmsybw
 𘒏	nmvda
-𘒏	ntjmvjda
+𘒏	ntjmvda
 𘒐	nmmwa
 𘒐	ntjmmbwa
 𘒑	nmxba
@@ -9167,7 +9185,7 @@ sort: original
 𘒙	nmrxx
 𘒙	ntjmrxsx
 𘒚	nmvdl
-𘒚	ntjmvjdmbwll
+𘒚	ntjmvdmbwll
 𘒛	nmvjb
 𘒛	ntjmvhqjmsb
 𘒜	nmcly
@@ -9230,6 +9248,8 @@ sort: original
 𘒸	nqjbrx
 𘒹	mklrx
 𘒹	mxnklrx
+𘒹	nklrx
+𘒹	nknklrx
 𘒺	njmni
 𘒺	nnlqjmnpi
 𘒻	njmsp
@@ -9268,14 +9288,14 @@ sort: original
 𘓌	zbhht
 𘓌	zlbhhbt
 𘓍	vqhpi
-𘓍	vjdqhpi
+𘓍	vdqhpi
 𘓎	vqwx
-𘓎	vjdqwx
+𘓎	vdqwx
 𘓏	vjwll
 𘓏	vhqjwll
 𘓐	vja
 𘓐	vhqja
-𘓑	vjdjk
+𘓑	vdjk
 𘓑	vhqjdjk
 𘓒	vjw
 𘓒	vhqjw
@@ -9384,11 +9404,12 @@ sort: original
 𘔆	mlebtmsbca
 𘔇	mtmbx
 𘔇	mlebtmsbrx
-𘔈	mtnjx
+𘔈	mtnmx
 𘔈	mlebtntjmtlx
 𘔉	mtnmu
 𘔉	mlebtntjmcllsbu
 𘔊	malsl
+𘔊	mlsml
 𘔊	mhalsmzllll
 𘔋	mgrx
 𘔋	mxgrx
@@ -9446,7 +9467,7 @@ sort: original
 𘔥	mtxmbua
 𘔦	mbmjl
 𘔦	mcbmtjal
-𘔧	mzmll
+𘔧	mzml
 𘔧	mzmlll
 𘔨	mla
 𘔨	mzmllla
@@ -9820,7 +9841,7 @@ sort: original
 𘗦	czllla
 𘗧	sdf
 𘗧	smlydf
-𘗨	sdfq
+𘗨	sdfjq
 𘗨	smlydfjdq
 𘗩	sqlsb
 𘗩	smbqlsmqb
@@ -10282,6 +10303,8 @@ sort: original
 𘛔	tlnksbw
 𘛕	txsml
 𘛕	tlxsmlzllll
+𘛕	tlsml
+𘛕	tlxlsmzllll
 𘛖	tbtu
 𘛖	tbtwu
 𘛗	tmfmb
@@ -10383,8 +10406,8 @@ sort: original
 𘜉	ntbwu
 𘜊	nwtx
 𘜊	ntbwtx
-𘜋	nwmz
-𘜋	ntbwmz
+𘜋	nwmxx
+𘜋	ntbwmxx
 𘜌	nwmxa
 𘜌	ntbwmxa
 𘜍	ntp
@@ -10425,21 +10448,21 @@ sort: original
 𘜟	zba
 𘜟	zxba
 𘜠	vjnnn
-𘜠	vjdtjnnn
+𘜠	vdtjnnn
 𘜡	vjwb
-𘜡	vjdtjwb
+𘜡	vdtjwb
 𘜢	vjy
-𘜢	vjdtjy
+𘜢	vdtjy
 𘜣	vja
-𘜣	vjdtja
+𘜣	vdtja
 𘜤	vjsbl
-𘜤	vjdtjsbl
+𘜤	vdtjsbl
 𘜥	vjwa
-𘜥	vjdtjwa
+𘜥	vdtjwa
 𘜦	vjme
-𘜦	vjdtjme
+𘜦	vdtjme
 𘜧	vjlrx
-𘜧	vjdtjlrx
+𘜧	vdtjlrx
 𘜨	vjtw
 𘜨	vdtjtw
 𘜩	mxmw
@@ -11380,10 +11403,10 @@ sort: original
 𘧔	pzqj
 𘧕	pza
 𘧖	pzlb
-𘧗	pvjdq
+𘧗	pvdq
 𘧘	pvhqj
 𘧙	pvnlq
-𘧚	pvhvjd
+𘧚	pvhvd
 𘧛	pwbtmm
 𘧜	pwe
 𘧝	pwcbt
@@ -11496,7 +11519,7 @@ sort: original
 𘩈	ptjcll
 𘩉	ptjcs
 𘩊	ptjnq
-𘩋	ptjvjd
+𘩋	ptjvd
 𘩌	pmlrx
 𘩍	pmbmb
 𘩎	pmbnk
@@ -11573,7 +11596,7 @@ sort: original
 𘪕	pnllla
 𘪖	pzxb
 𘪗	pzcx
-𘪘	pvjdtj
+𘪘	pvdtj
 𘪙	pmtjmbt
 𘪚	pmtjmx
 𘪛	pwax
@@ -31265,6 +31288,4 @@ sort: original
 𘈌𗧓
 𘈌𘉞
 𘝹𗧓
-
 𘝹𘉞
-
